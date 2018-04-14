@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="zjpJDStatusBarNotificationViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zd-MC-8a1">
+                    <rect key="frame" x="16" y="60" width="92" height="30"/>
+                    <state key="normal" title="网络请求操作">
+                        <color key="titleColor" red="1" green="0.26171381179999997" blue="0.23322503929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showStatus:" destination="-1" eventType="touchUpInside" id="kUn-XQ-h1c"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9s-cM-h7i">
+                    <rect key="frame" x="286" y="60" width="62" height="30"/>
+                    <state key="normal" title="监听状态">
+                        <color key="titleColor" red="1" green="0.26171381179999997" blue="0.23322503929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="monitorStatus:" destination="-1" eventType="touchUpInside" id="Q6n-N8-ZmU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpQ-J7-oko">
+                    <rect key="frame" x="171" y="60" width="62" height="30"/>
+                    <state key="normal" title="显示进度">
+                        <color key="titleColor" red="1" green="0.26171381179999997" blue="0.23322503929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showProgress:" destination="-1" eventType="touchUpInside" id="wXA-cB-qWP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qll-XV-3vc">
+                    <rect key="frame" x="28" y="120" width="31" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="菊花">
+                        <color key="titleColor" red="1" green="0.26171381179999997" blue="0.23322503929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="showActivity:" destination="-1" eventType="touchUpInside" id="tJq-ug-VNV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGq-sx-w9T">
+                    <rect key="frame" x="133" y="254" width="31" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="菊花">
+                        <color key="titleColor" red="1" green="0.26171381179999997" blue="0.23322503929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgc-j1-5Xy">
+                    <rect key="frame" x="226" y="254" width="31" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="菊花">
+                        <color key="titleColor" red="1" green="0.26171381179999997" blue="0.23322503929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHo-BJ-c5r">
+                    <rect key="frame" x="28" y="337" width="31" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="菊花">
+                        <color key="titleColor" red="1" green="0.26171381179999997" blue="0.23322503929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8s-W0-5M2">
+                    <rect key="frame" x="90" y="120" width="86" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="ActivityStyle">
+                        <color key="titleColor" red="1" green="0.26171381179999997" blue="0.23322503929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="styleNewOfActivty:" destination="-1" eventType="touchUpInside" id="So1-wj-kq7"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="g9s-cM-h7i" firstAttribute="leading" secondItem="mpQ-J7-oko" secondAttribute="trailing" constant="53" id="2z2-HS-6b1"/>
+                <constraint firstItem="8zd-MC-8a1" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="40" id="64e-7y-MGa"/>
+                <constraint firstItem="8zd-MC-8a1" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="16" id="Cyk-4E-aaY"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="g9s-cM-h7i" secondAttribute="trailing" constant="27" id="Uxa-oN-8e4"/>
+                <constraint firstItem="mpQ-J7-oko" firstAttribute="leading" secondItem="8zd-MC-8a1" secondAttribute="trailing" constant="63" id="lYz-Sk-Be0"/>
+                <constraint firstItem="mpQ-J7-oko" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="40" id="vKx-4T-ZnL"/>
+                <constraint firstItem="g9s-cM-h7i" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="40" id="ymo-K5-k4k"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-455" y="54"/>
+        </view>
+    </objects>
+</document>

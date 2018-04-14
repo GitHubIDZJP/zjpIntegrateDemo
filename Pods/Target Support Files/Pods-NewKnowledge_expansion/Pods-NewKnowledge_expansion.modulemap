@@ -1,0 +1,6 @@
+framework module Pods_NewKnowledge_expansion {
+  umbrella header "Pods-NewKnowledge_expansion-umbrella.h"
+
+  export *
+  module * { export * }
+}

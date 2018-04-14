@@ -1,0 +1,55 @@
+//
+//  PrefixHeader.pch
+//  SDWebImageBasics
+//
+//  Created by mac on 2018/3/7.
+//  Copyright © 2018年 mac. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "XSpotLight.h"
+#define rectOfNavigationbar  self.navigationController.navigationBar.frame.size.height
+
+#define rectOfStatusbar  [[UIApplication sharedApplication] statusBarFrame].size.height
+
+#define DYTColor(r,g,b)[UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#import "MBProgressHUD.h"
+#import "MyTableViewCell.h"
+#import "second_level_oneViewController.h"
+#import "second_level_twoViewController.h"
+#import "indexStudyViewController.h"
+#import "zjpKXMenu.h"
+#import "MJRefresh.h"
+#import "QQPopMenuView.h"
+#import "BButtonViewController.h"
+#import "TPKeyboardAvoidingScrollView.h"
+
+#import "zjpJDStatusBarNotificationViewController.h"
+#import "MJRefreshPaymoneyViewController.h"
+
+
+#import "SeekViewController.h"
+
+#import "JDStatusBarNotification.h"
+#import "JDStatusBarView.h"
+#import "JDStatusBarStyle.h"
+#import "JDStatusBarLayoutMarginHelper.h"
+#import "BButton.h"
+#import "EAIntroView.h"
+#import "zjpEAIntroView.h"
+#import "KxMenu.h"
+#import "zjpSDWebImageLoading.h"
+//kxMenuSubViewF
+#import "searchViewController.h"
+#import "actionViewController.h"
+#import "homeViewController.h"
+#import "reloadViewController.h"
+#import "checkViewController.h"
+#import "zjpTPKeyboardAvoidingScrollview.h"
+#import "TPKeyboardAvoidingScrollView.h"
+#endif /* PrefixHeader_pch */
